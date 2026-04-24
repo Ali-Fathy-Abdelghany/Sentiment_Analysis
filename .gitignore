@@ -1,0 +1,13 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+.venv/
+venv/
+env/
+Evaluation and Error Analysis - Task 4.pdf
+glove.6B.100d.txt
+Sentiment Analysis  - Task 3 Part 1 Saturday-2.pdf
+Task 1_ Sentiment Data Collection.pdf
+Task 2_ Text Preprocessing.pdf
+Task_1_Sentiment_Data_Collection.md
+Task_2_Robust_Text_Preprocessing_and_Data_Refinement.md
+Task_3_Sentiment_Analysis_Part_1.md
+Task_4_Model_Optimization_and_Deployment.md

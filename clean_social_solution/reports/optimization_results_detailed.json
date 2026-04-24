@@ -1,0 +1,344 @@
+{
+  "s1_tfidf_svc": {
+    "best_params": {
+      "C": 1.0,
+      "gamma": "scale",
+      "kernel": "linear"
+    },
+    "model_path": "artifacts/models/optimized/s1_tfidf_svc.joblib",
+    "baseline": {
+      "accuracy": 0.675,
+      "precision_macro": 0.7012432012432012,
+      "recall_macro": 0.6448412698412699,
+      "f1_macro": 0.6497485857950974,
+      "confusion_matrix": [
+        [
+          30,
+          4,
+          1
+        ],
+        [
+          7,
+          13,
+          1
+        ],
+        [
+          8,
+          5,
+          11
+        ]
+      ],
+      "roc_auc_ovr": 0.8199168796520491
+    },
+    "tuned": {
+      "accuracy": 0.675,
+      "precision_macro": 0.7012432012432012,
+      "recall_macro": 0.6448412698412699,
+      "f1_macro": 0.6497485857950974,
+      "confusion_matrix": [
+        [
+          30,
+          4,
+          1
+        ],
+        [
+          7,
+          13,
+          1
+        ],
+        [
+          8,
+          5,
+          11
+        ]
+      ],
+      "roc_auc_ovr": 0.8199168796520491
+    },
+    "required_f1_threshold": 0.39999999999999997
+  },
+  "s1_glove_svc": {
+    "best_params": {
+      "C": 10.0,
+      "gamma": "scale",
+      "kernel": "rbf"
+    },
+    "model_path": "artifacts/models/optimized/s1_glove_svc.joblib",
+    "baseline": {
+      "accuracy": 0.65,
+      "precision_macro": 0.6521598968407479,
+      "recall_macro": 0.6051587301587301,
+      "f1_macro": 0.6071270767055497,
+      "confusion_matrix": [
+        [
+          30,
+          3,
+          2
+        ],
+        [
+          9,
+          7,
+          5
+        ],
+        [
+          8,
+          1,
+          15
+        ]
+      ],
+      "roc_auc_ovr": 0.8004060173975428
+    },
+    "tuned": {
+      "accuracy": 0.675,
+      "precision_macro": 0.6964752306297659,
+      "recall_macro": 0.6388888888888888,
+      "f1_macro": 0.6514328930664722,
+      "confusion_matrix": [
+        [
+          30,
+          3,
+          2
+        ],
+        [
+          8,
+          10,
+          3
+        ],
+        [
+          9,
+          1,
+          14
+        ]
+      ],
+      "roc_auc_ovr": 0.8455931642901983
+    },
+    "required_f1_threshold": 0.39999999999999997
+  },
+  "s2_tfidf_svc": {
+    "best_params": {
+      "C": 1.0,
+      "gamma": "scale",
+      "kernel": "linear"
+    },
+    "model_path": "artifacts/models/optimized/s2_tfidf_svc.joblib",
+    "baseline": {
+      "accuracy": 0.6625,
+      "precision_macro": 0.6666939443535188,
+      "recall_macro": 0.6182539682539683,
+      "f1_macro": 0.6192045704240826,
+      "confusion_matrix": [
+        [
+          32,
+          3,
+          0
+        ],
+        [
+          7,
+          11,
+          3
+        ],
+        [
+          8,
+          6,
+          10
+        ]
+      ],
+      "roc_auc_ovr": 0.8148351605237197
+    },
+    "tuned": {
+      "accuracy": 0.6625,
+      "precision_macro": 0.6666939443535188,
+      "recall_macro": 0.6182539682539683,
+      "f1_macro": 0.6192045704240826,
+      "confusion_matrix": [
+        [
+          32,
+          3,
+          0
+        ],
+        [
+          7,
+          11,
+          3
+        ],
+        [
+          8,
+          6,
+          10
+        ]
+      ],
+      "roc_auc_ovr": 0.8148351605237197
+    },
+    "required_f1_threshold": 0.39999999999999997
+  },
+  "s2_glove_svc": {
+    "best_params": {
+      "C": 10.0,
+      "gamma": "scale",
+      "kernel": "rbf"
+    },
+    "model_path": "artifacts/models/optimized/s2_glove_svc.joblib",
+    "baseline": {
+      "accuracy": 0.675,
+      "precision_macro": 0.6759259259259259,
+      "recall_macro": 0.6496031746031746,
+      "f1_macro": 0.6577311577311576,
+      "confusion_matrix": [
+        [
+          28,
+          6,
+          1
+        ],
+        [
+          6,
+          11,
+          4
+        ],
+        [
+          8,
+          1,
+          15
+        ]
+      ],
+      "roc_auc_ovr": 0.8036923818491615
+    },
+    "tuned": {
+      "accuracy": 0.7125,
+      "precision_macro": 0.74640522875817,
+      "recall_macro": 0.6757936507936507,
+      "f1_macro": 0.6897766504614951,
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          1
+        ],
+        [
+          8,
+          12,
+          1
+        ],
+        [
+          8,
+          3,
+          13
+        ]
+      ],
+      "roc_auc_ovr": 0.8255150883328849
+    },
+    "required_f1_threshold": 0.39999999999999997
+  },
+  "s3_tfidf_svc": {
+    "best_params": {
+      "C": 3.0,
+      "gamma": "scale",
+      "kernel": "linear"
+    },
+    "model_path": "artifacts/models/optimized/s3_tfidf_svc.joblib",
+    "baseline": {
+      "accuracy": 0.725,
+      "precision_macro": 0.7523009203681473,
+      "recall_macro": 0.6809523809523809,
+      "f1_macro": 0.6908939014202172,
+      "confusion_matrix": [
+        [
+          34,
+          1,
+          0
+        ],
+        [
+          7,
+          12,
+          2
+        ],
+        [
+          8,
+          4,
+          12
+        ]
+      ],
+      "roc_auc_ovr": 0.8256411420500404
+    },
+    "tuned": {
+      "accuracy": 0.725,
+      "precision_macro": 0.7775200989486705,
+      "recall_macro": 0.6912698412698411,
+      "f1_macro": 0.6962833914053427,
+      "confusion_matrix": [
+        [
+          33,
+          2,
+          0
+        ],
+        [
+          5,
+          15,
+          1
+        ],
+        [
+          11,
+          3,
+          10
+        ]
+      ],
+      "roc_auc_ovr": 0.8244976907900637
+    },
+    "required_f1_threshold": 0.39999999999999997
+  },
+  "s3_glove_svc": {
+    "best_params": {
+      "C": 3.0,
+      "gamma": "scale",
+      "kernel": "rbf"
+    },
+    "model_path": "artifacts/models/optimized/s3_glove_svc.joblib",
+    "baseline": {
+      "accuracy": 0.6625,
+      "precision_macro": 0.6559290382819795,
+      "recall_macro": 0.6333333333333333,
+      "f1_macro": 0.6366803927779537,
+      "confusion_matrix": [
+        [
+          29,
+          4,
+          2
+        ],
+        [
+          6,
+          12,
+          3
+        ],
+        [
+          7,
+          5,
+          12
+        ]
+      ],
+      "roc_auc_ovr": 0.8222269863689355
+    },
+    "tuned": {
+      "accuracy": 0.7125,
+      "precision_macro": 0.7034391534391534,
+      "recall_macro": 0.682142857142857,
+      "f1_macro": 0.6861295885686131,
+      "confusion_matrix": [
+        [
+          31,
+          3,
+          1
+        ],
+        [
+          4,
+          13,
+          4
+        ],
+        [
+          7,
+          4,
+          13
+        ]
+      ],
+      "roc_auc_ovr": 0.8503953681284191
+    },
+    "required_f1_threshold": 0.39999999999999997
+  }
+}

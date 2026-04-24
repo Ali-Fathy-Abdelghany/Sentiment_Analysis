@@ -1,0 +1,27 @@
+{
+  "rows": 1000,
+  "columns": [
+    "userName",
+    "score",
+    "content",
+    "at",
+    "thumbsUpCount"
+  ],
+  "null_counts": {
+    "userName": 0,
+    "score": 0,
+    "content": 0,
+    "at": 0,
+    "thumbsUpCount": 0
+  },
+  "duplicate_rows": 0,
+  "score_distribution": {
+    "1": 577,
+    "2": 60,
+    "3": 65,
+    "4": 48,
+    "5": 250
+  },
+  "min_required_records": 100,
+  "passes_min_requirement": true
+}

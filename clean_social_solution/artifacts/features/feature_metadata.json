@@ -1,0 +1,20 @@
+{
+  "s1": {
+    "rows": 400,
+    "tfidf_features": 3000,
+    "glove_dim": 100,
+    "glove_source": "local_glove_glove.6B.100d.txt"
+  },
+  "s2": {
+    "rows": 400,
+    "tfidf_features": 3000,
+    "glove_dim": 100,
+    "glove_source": "local_glove_glove.6B.100d.txt"
+  },
+  "s3": {
+    "rows": 400,
+    "tfidf_features": 3000,
+    "glove_dim": 100,
+    "glove_source": "local_glove_glove.6B.100d.txt"
+  }
+}

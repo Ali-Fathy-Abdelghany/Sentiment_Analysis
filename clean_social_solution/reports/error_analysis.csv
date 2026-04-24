@@ -1,0 +1,28 @@
+record_id,text,true_label,predicted_label,pattern_tags
+237,you never know what will happen when you click on something,Neutral,Negative,negation
+268,this is the good app i 'm not going to lie i found garbage item that could explode easily,Positive,Negative,negation
+85,the welcome gift is a scam i won 2 free item and also free shipping but i had to pick a discounted item to get my gift nothing on there is actually free,Positive,Negative,negation
+67,nice,Positive,Neutral,very_short_text
+133,if i ever get my refund i 'll bump the review up to 5 star,Neutral,Negative,context_ambiguity
+277,an interesting app that outperformed among other alternative,Positive,Negative,context_ambiguity
+364,bht acha app h,Neutral,Positive,very_short_text
+294,the ad are a lie you can not get 3 thing for 99 with free shipping because when you try it reloads say you ca n't partake because the deal is only for new user literally just made my account but okay,Positive,Negative,negation
+122,send fake product,Negative,Neutral,very_short_text
+113,it is a nice app the customer service is good,Positive,Neutral,context_ambiguity
+203,app is good but the courier service you are using is rubbish the parcel are left at random i have to look for them every time last one i could not find i got a full refund but it is not something that helped me i needed the product i ordered,Positive,Negative,negation
+210,shipping fee is expensive,Neutral,Positive,very_short_text
+95,should n't have to use an app to purchase,Neutral,Negative,context_ambiguity
+218,hi i am having problem with the app i 've updated it and also uninstall it and reinstalled it but it wo n't let me have the free gjft that it say i have won a it keep saying it doe n't support me viewing local supermarket item please update your app to our latest version i have done please sort this out,Positive,Neutral,context_ambiguity
+386,ha gone downhill in recent year i have been a loyal customer since 2010 the dispute process ha become overcomplicated and some courier used like cainao are not reputable they mark parcel a being delivered and do not respond to enquiry if you order from this platform ensure the seller is using imile courier they provide photo a proof of delivery edit any appeal or escalation end in the same way item that arrive faulty or damaged good luck trying to go through the dispute,Positive,Negative,negation
+288,i purchased a package but when i found out the delivery guy is speed x i know i wa never going to receive the package that i purchased it 's been over 15 day and our customer service ha not helped me out,Neutral,Negative,negation
+279,cant log in and see my account anymore forcing sign in with google,Neutral,Negative,context_ambiguity
+227,got scammed r4000 on two packages.aliexpress investigaters helped the supplier to scam me 4k they delay the matter while screenshot of evidence wa supplied they promote supplier scamming people extra money after ordering i 've reported the supplier nothing wa done about supplier he still continues scamming other people be carefully of this app rather u alibaba for your safety a a customer,Neutral,Negative,negation
+334,there 's too many bug in the app atm when i scroll thru the feed and click on an item not only is it super slow but it show a completely different item this then throw off the algorithm and then the feed continues to shoe item which are n't of interest so i have n't even been able to place my first order and get the benefit of the welcome deal because i give up looking out of frustration,Positive,Negative,negation
+155,do n't install this app it is lying doe n't respect protocol and it 's chinese,Negative,Neutral,context_ambiguity
+118,it is okay,Positive,Neutral,very_short_text
+385,unable to add item to cart only option is to buy now,Negative,Neutral,context_ambiguity
+305,coin are useless u collect coin but you can only use them from what you viewed should be able to use the on everythink,Neutral,Negative,context_ambiguity
+375,good cool stuff but they ship soooo slowly and most the time they do n't ship so come the expected delivery date the order get canceled cause they have n't shipped it useless app,Positive,Negative,context_ambiguity
+140,so cool,Positive,Neutral,very_short_text
+391,gud app,Neutral,Positive,very_short_text
+259,it is fast and it is very cheap,Positive,Neutral,context_ambiguity

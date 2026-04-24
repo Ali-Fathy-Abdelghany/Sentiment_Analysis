@@ -1,0 +1,51 @@
+{
+  "passed": 9,
+  "total": 9,
+  "checks": [
+    {
+      "title": "Task 1 raw dataset exists",
+      "passed": true,
+      "detail": "C:\\Users\\Fares\\Documents\\university\\CleanSocial\\clean_social_solution\\data\\raw\\ali-express_reviews.csv"
+    },
+    {
+      "title": "Task 1 minimum records >= 100",
+      "passed": true,
+      "detail": "data/raw/ali-express_reviews.csv"
+    },
+    {
+      "title": "Task 2 configurable preprocessing CLI module exists",
+      "passed": true,
+      "detail": "src/clean_social/cli/preprocess.py"
+    },
+    {
+      "title": "Task 2 main.py entrypoint module exists",
+      "passed": true,
+      "detail": "src/clean_social/cli/main.py"
+    },
+    {
+      "title": "Task 2 default cleaning flags are False",
+      "passed": true,
+      "detail": "PreprocessingConfig"
+    },
+    {
+      "title": "Task 3 labeling/features/metrics artifacts exist",
+      "passed": true,
+      "detail": "data/, artifacts/, reports/"
+    },
+    {
+      "title": "Task 3 benchmark includes 18 evaluated model variants",
+      "passed": true,
+      "detail": "reports/model_metrics.csv"
+    },
+    {
+      "title": "Task 4 optimization/error/deployment files exist",
+      "passed": true,
+      "detail": "reports/, artifacts/, src/clean_social/apps/"
+    },
+    {
+      "title": "Task 4 API predict endpoint works",
+      "passed": true,
+      "detail": "POST /predict"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.6625,
+  "f1_macro": 0.6189345314505778,
+  "labels": [
+    "Negative",
+    "Neutral",
+    "Positive"
+  ],
+  "training_samples": 320,
+  "test_samples": 80
+}

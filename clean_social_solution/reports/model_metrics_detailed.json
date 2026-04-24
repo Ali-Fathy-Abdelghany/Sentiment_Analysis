@@ -1,0 +1,448 @@
+{
+  "s1_vader": {
+    "accuracy": 0.8875,
+    "precision_macro": 0.8855036767330621,
+    "recall_macro": 0.9035714285714286,
+    "f1_macro": 0.8895687645687645,
+    "confusion_matrix": [
+      [
+        28,
+        2,
+        5
+      ],
+      [
+        1,
+        20,
+        0
+      ],
+      [
+        0,
+        1,
+        23
+      ]
+    ],
+    "roc_auc_ovr": null
+  },
+  "s1_afinn": {
+    "accuracy": 0.7625,
+    "precision_macro": 0.767094017094017,
+    "recall_macro": 0.7825396825396825,
+    "f1_macro": 0.7649463671321595,
+    "confusion_matrix": [
+      [
+        23,
+        3,
+        9
+      ],
+      [
+        2,
+        18,
+        1
+      ],
+      [
+        1,
+        3,
+        20
+      ]
+    ],
+    "roc_auc_ovr": null
+  },
+  "s1_tfidf_svm": {
+    "accuracy": 0.7125,
+    "precision_macro": 0.7630718954248366,
+    "recall_macro": 0.667063492063492,
+    "f1_macro": 0.6777959109660455,
+    "confusion_matrix": [
+      [
+        34,
+        1,
+        0
+      ],
+      [
+        8,
+        12,
+        1
+      ],
+      [
+        9,
+        4,
+        11
+      ]
+    ],
+    "roc_auc_ovr": 0.8310507465698144
+  },
+  "s1_tfidf_linear_regression": {
+    "accuracy": 0.5625,
+    "precision_macro": 0.6400050929462694,
+    "recall_macro": 0.5547619047619048,
+    "f1_macro": 0.5575757575757575,
+    "confusion_matrix": [
+      [
+        22,
+        13,
+        0
+      ],
+      [
+        7,
+        13,
+        1
+      ],
+      [
+        6,
+        8,
+        10
+      ]
+    ],
+    "roc_auc_ovr": 0.7503793942247331
+  },
+  "s1_glove_svm": {
+    "accuracy": 0.625,
+    "precision_macro": 0.619828749592815,
+    "recall_macro": 0.6011904761904763,
+    "f1_macro": 0.5990097253685657,
+    "confusion_matrix": [
+      [
+        25,
+        5,
+        5
+      ],
+      [
+        6,
+        8,
+        7
+      ],
+      [
+        7,
+        0,
+        17
+      ]
+    ],
+    "roc_auc_ovr": 0.790227221773832
+  },
+  "s1_glove_linear_regression": {
+    "accuracy": 0.5,
+    "precision_macro": 0.5232323232323233,
+    "recall_macro": 0.49682539682539684,
+    "f1_macro": 0.4988233590384128,
+    "confusion_matrix": [
+      [
+        18,
+        15,
+        2
+      ],
+      [
+        5,
+        10,
+        6
+      ],
+      [
+        4,
+        8,
+        12
+      ]
+    ],
+    "roc_auc_ovr": 0.6484611245628195
+  },
+  "s2_vader": {
+    "accuracy": 0.8375,
+    "precision_macro": 0.8410267550052497,
+    "recall_macro": 0.8527777777777779,
+    "f1_macro": 0.8374275387028575,
+    "confusion_matrix": [
+      [
+        26,
+        3,
+        6
+      ],
+      [
+        1,
+        18,
+        2
+      ],
+      [
+        0,
+        1,
+        23
+      ]
+    ],
+    "roc_auc_ovr": null
+  },
+  "s2_afinn": {
+    "accuracy": 0.65,
+    "precision_macro": 0.6710374971244537,
+    "recall_macro": 0.684126984126984,
+    "f1_macro": 0.6551226551226551,
+    "confusion_matrix": [
+      [
+        16,
+        4,
+        15
+      ],
+      [
+        4,
+        16,
+        1
+      ],
+      [
+        1,
+        3,
+        20
+      ]
+    ],
+    "roc_auc_ovr": null
+  },
+  "s2_tfidf_svm": {
+    "accuracy": 0.675,
+    "precision_macro": 0.7091503267973857,
+    "recall_macro": 0.6277777777777779,
+    "f1_macro": 0.6339815948139081,
+    "confusion_matrix": [
+      [
+        33,
+        1,
+        1
+      ],
+      [
+        9,
+        11,
+        1
+      ],
+      [
+        9,
+        5,
+        10
+      ]
+    ],
+    "roc_auc_ovr": 0.8197343287597526
+  },
+  "s2_tfidf_linear_regression": {
+    "accuracy": 0.6,
+    "precision_macro": 0.6330924420355314,
+    "recall_macro": 0.5706349206349207,
+    "f1_macro": 0.5748050682261209,
+    "confusion_matrix": [
+      [
+        27,
+        8,
+        0
+      ],
+      [
+        8,
+        11,
+        2
+      ],
+      [
+        6,
+        8,
+        10
+      ]
+    ],
+    "roc_auc_ovr": 0.7503740695901713
+  },
+  "s2_glove_svm": {
+    "accuracy": 0.6625,
+    "precision_macro": 0.6529624893435635,
+    "recall_macro": 0.638095238095238,
+    "f1_macro": 0.6423889511011572,
+    "confusion_matrix": [
+      [
+        27,
+        6,
+        2
+      ],
+      [
+        6,
+        10,
+        5
+      ],
+      [
+        7,
+        1,
+        16
+      ]
+    ],
+    "roc_auc_ovr": 0.7855457470182046
+  },
+  "s2_glove_linear_regression": {
+    "accuracy": 0.55,
+    "precision_macro": 0.5533910533910533,
+    "recall_macro": 0.5436507936507936,
+    "f1_macro": 0.5440811776215503,
+    "confusion_matrix": [
+      [
+        20,
+        13,
+        2
+      ],
+      [
+        5,
+        10,
+        6
+      ],
+      [
+        5,
+        5,
+        14
+      ]
+    ],
+    "roc_auc_ovr": 0.6713341852748632
+  },
+  "s3_vader": {
+    "accuracy": 0.8,
+    "precision_macro": 0.8072487949573599,
+    "recall_macro": 0.8134920634920634,
+    "f1_macro": 0.8035060975609755,
+    "confusion_matrix": [
+      [
+        25,
+        2,
+        8
+      ],
+      [
+        3,
+        17,
+        1
+      ],
+      [
+        1,
+        1,
+        22
+      ]
+    ],
+    "roc_auc_ovr": null
+  },
+  "s3_afinn": {
+    "accuracy": 0.65,
+    "precision_macro": 0.6607836607836607,
+    "recall_macro": 0.6734126984126984,
+    "f1_macro": 0.6570387717928701,
+    "confusion_matrix": [
+      [
+        18,
+        4,
+        13
+      ],
+      [
+        5,
+        15,
+        1
+      ],
+      [
+        3,
+        2,
+        19
+      ]
+    ],
+    "roc_auc_ovr": null
+  },
+  "s3_tfidf_svm": {
+    "accuracy": 0.6875,
+    "precision_macro": 0.7838383838383839,
+    "recall_macro": 0.6373015873015874,
+    "f1_macro": 0.6516339869281046,
+    "confusion_matrix": [
+      [
+        34,
+        1,
+        0
+      ],
+      [
+        10,
+        11,
+        0
+      ],
+      [
+        11,
+        3,
+        10
+      ]
+    ],
+    "roc_auc_ovr": 0.827204847098915
+  },
+  "s3_tfidf_linear_regression": {
+    "accuracy": 0.5875,
+    "precision_macro": 0.6898864809081527,
+    "recall_macro": 0.5714285714285714,
+    "f1_macro": 0.5646741386467413,
+    "confusion_matrix": [
+      [
+        25,
+        10,
+        0
+      ],
+      [
+        7,
+        14,
+        0
+      ],
+      [
+        6,
+        10,
+        8
+      ]
+    ],
+    "roc_auc_ovr": 0.7718019123845394
+  },
+  "s3_glove_svm": {
+    "accuracy": 0.6375,
+    "precision_macro": 0.6246046046046047,
+    "recall_macro": 0.6166666666666667,
+    "f1_macro": 0.6192511192511192,
+    "confusion_matrix": [
+      [
+        26,
+        4,
+        5
+      ],
+      [
+        4,
+        11,
+        6
+      ],
+      [
+        7,
+        3,
+        14
+      ]
+    ],
+    "roc_auc_ovr": 0.8045857994798672
+  },
+  "s3_glove_linear_regression": {
+    "accuracy": 0.6,
+    "precision_macro": 0.6165579710144927,
+    "recall_macro": 0.6115079365079364,
+    "f1_macro": 0.5999776974887372,
+    "confusion_matrix": [
+      [
+        19,
+        13,
+        3
+      ],
+      [
+        2,
+        14,
+        5
+      ],
+      [
+        4,
+        5,
+        15
+      ]
+    ],
+    "roc_auc_ovr": 0.7324000650165905
+  },
+  "saved_models": {
+    "s1_tfidf_svm": "artifacts/models/benchmark/s1_tfidf_svm_linear.joblib",
+    "s1_tfidf_linear_regression": "artifacts/models/benchmark/s1_tfidf_linear_regression.joblib",
+    "s1_glove_svm": "artifacts/models/benchmark/s1_glove_svm_linear.joblib",
+    "s1_glove_linear_regression": "artifacts/models/benchmark/s1_glove_linear_regression.joblib",
+    "s2_tfidf_svm": "artifacts/models/benchmark/s2_tfidf_svm_linear.joblib",
+    "s2_tfidf_linear_regression": "artifacts/models/benchmark/s2_tfidf_linear_regression.joblib",
+    "s2_glove_svm": "artifacts/models/benchmark/s2_glove_svm_linear.joblib",
+    "s2_glove_linear_regression": "artifacts/models/benchmark/s2_glove_linear_regression.joblib",
+    "s3_tfidf_svm": "artifacts/models/benchmark/s3_tfidf_svm_linear.joblib",
+    "s3_tfidf_linear_regression": "artifacts/models/benchmark/s3_tfidf_linear_regression.joblib",
+    "s3_glove_svm": "artifacts/models/benchmark/s3_glove_svm_linear.joblib",
+    "s3_glove_linear_regression": "artifacts/models/benchmark/s3_glove_linear_regression.joblib"
+  }
+}
